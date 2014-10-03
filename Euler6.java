@@ -15,15 +15,16 @@ public class Euler6 {
     
     public static void main(String[] args) {
         
-        int sumA = 0;
-        int sumB = 0;
-        int result = 0;
+        int sumA = 0;         // A soma dos quadrados
+        int sumB = 0;        // O quadrado da soma
+        int result = 0;     // A diferença entre sumA e sumB
         
+        /** Para da valor i neste intervalo, incremanta-se sumA com o quadrado de i e sumB com i */
         for(int i = 0; i <= 100; i++){
             sumA += i*i;
             sumB += i;
         }
-        sumB = sumB*sumB;
+        sumB = sumB*sumB;       // O quadrado de sumB
         result = sumB - sumA;
        
         System.out.println(result);
