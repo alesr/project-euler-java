@@ -15,6 +15,8 @@ public class Euler3{
         long factor = 2;
         long number = 600851475143L;
         
+        /** Para cada i entre 2 e o valor de number verifica se a divisão de number por i tem resto zero
+        e em caso positivo atualiza o valor da variável factor com i e a variável number com o quociente da divisão por i */
         for(long i = 2; i<=number; i++){
             while(number%i == 0){
                 factor = i;
