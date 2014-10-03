@@ -8,7 +8,7 @@
  *
  * Expected result: 6857
  */
-public class P3{
+public class Euler3{
     
     public static void main(String[] args){
         
