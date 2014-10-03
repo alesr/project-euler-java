@@ -17,8 +17,9 @@ public class Euler1 {
         int i = 0;
         int sum = 0;
         
+        /** Enquanto i for menor que 1000, verifica se i é divisível por 3 ou por 5 e caso positivo, incrementa i. */
         while(i<1000){
-            if(i%3==0 || i%5==0 ){
+            if(i%3==0 || i%5==0 ){      // "OU" para não existirem valores duplicados.
                 sum += i;    
             }
             i++;
