@@ -15,17 +15,21 @@
 public class Euler2 {
     
     public static void main(String[] args){
-     
-        long firstFibo = 0;
+        
+        /** Determina valores iniciais para os primeiros dois fibonacci */
+        long firstFibo = 0;       
         long secondFibo = 1;
         long nextFibo = firstFibo + secondFibo;
         long sum = 0;
 
+        /** Enquanto o valor do termo nextFibo for menor que 4 milhões, verifica se o termo é part e incrementa a soma */
         while (nextFibo <= 4000000){
             if (nextFibo % 2 == 0){
                 sum += nextFibo;
             }
-            firstFibo = secondFibo;
+
+            /** Atualiza as variáveis para os valores seguintes */
+            firstFibo = secondFibo; 
             secondFibo = nextFibo;
             nextFibo = firstFibo + secondFibo;
         }
