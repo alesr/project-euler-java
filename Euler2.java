@@ -22,7 +22,7 @@ public class Euler2 {
         long nextFibo = firstFibo + secondFibo;
         long sum = 0;
 
-        /** Enquanto o valor do termo nextFibo for menor que 4 milhões, verifica se o termo é part e incrementa a soma */
+        /** Enquanto o valor do termo nextFibo for menor que 4 milhões, verifica se o termoo é part e incrementa a soma */
         while (nextFibo <= 4000000){
             if (nextFibo % 2 == 0){
                 sum += nextFibo;
