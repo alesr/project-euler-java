@@ -9,7 +9,7 @@ public class Euler56{
         for (int a = 1; a < 100; a++) {
             for (int b = 1; b < 100; b++) {
                 BigInteger pow = BigInteger.valueOf(a).pow(b);
-                max = Math.max(totalSum(pow), max);  // retorna o maior valor
+                max = Math.max(totalSum(pow), max);  // retorna o maior valorr
             }
         }
         return Integer.toString(max);
