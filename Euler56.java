@@ -3,7 +3,7 @@ import java.math.BigInteger;
 public class Euler56{
 
 
-	// Calcula a^b para cada a e b < 100
+	// Calcula a^b para cada a e b < 100####
     public String calcPow() {
         int max = 0;
         for (int a = 1; a < 100; a++) {
