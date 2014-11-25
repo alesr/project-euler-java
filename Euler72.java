@@ -6,7 +6,6 @@ It can be seen that there are 21 elements in this set.
 How many elements would be contained in the set of reduced proper fractions for d ≤ 1,000,000?
 */
 
-
 package euler72;
 
 public class Euler72 {
