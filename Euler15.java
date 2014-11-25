@@ -7,21 +7,24 @@ package euler15;
 
 public class Euler15 {
 
-    public static long binomialCoefficient(int n, int k) {
+    public static long count(int x, int y) {
+
+        // x =  Numero de Quadrados
+        // y =  Tamannho da GRID y*y
         
-        if (k > (n-k))
-        k = n - k;
+        if (y > (x-y))
+        y = x - y;
         long c = 1;
         
-        for (int i = 0; i < k; i++){
-            c = c * (n-i);
+        for (int i = 0; i < y; i++){
+            c = c * (x-i);
             c = c / (i+1);	
         }
         return c;
     }
     
     public static void main (String[] args){
-
-        System.out.println(binomialCoefficient(40,20));
+        //Incia e chama a funcão COUNT(Conta as possibilidades de caminhos para obter a diagonal)
+        System.out.println(count(40,20));
     }
 }
