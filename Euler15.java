@@ -24,7 +24,7 @@ public class Euler15 {
     }
     
     public static void main (String[] args){
-        //Incia e chama a funcão COUNT(Conta as possibilidades de caminhos para obter a diagonal)
+        //Incia e chama a funcão COUNT(Conta as possibilidades de caminhos para obter a diagonal).
         System.out.println(count(40,20));
     }
 }
