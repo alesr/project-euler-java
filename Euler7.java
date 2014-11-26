@@ -13,7 +13,7 @@ public class Euler7 {
 
     public static void main(String[] args) {
 
-        /** Caso n seja um número primo, incrementa count até encontrar o 10001º número primo */
+        /** Caso n seja um número primo, incrementa count até encontrar o 10001º número primo. */
         int count = 0;
         for (int n=1; n>0; n++) {
             if (primo(n) == true){                   
